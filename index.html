@@ -31,18 +31,14 @@
 
     
 </head>
-<script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
 <div> 
   <div class="dropdown">
   <input class="text-box" type="text" placeholder="Menu" readonly>
   <div class="options">
     
-    <div onclick="show('Home')"><a href="index2.html" > Home </a></div>
-    <div onclick="show('Portfolio')"><a href="portfolio.html" >Portfolio</a></div>
-    <div onclick="show('Project')"><a href="project.html" > Project</a></div>
-    
+      <div onclick="show('Home')"><a href="index.html" > Home </a></div>
+      <div onclick="show('Portfolio')"><a href="portfolio.html" >Portfolio</a></div>
+      <div onclick="show('Project')"><a href="project.html" > Project</a></div>
       
     <link rel="stylesheet" href="Untitled-2.css">
     <script src="js1.js"></script>
@@ -54,40 +50,16 @@
   <h1>
 
     <div class="text" id="firstname">
-      <div class="animate">Project</div>
-    
+      <div class="animate">Aviv</div>
+    </div>
+    <div class="text" id="lastname">
+      <div class="animate delay">Saban</div>
+    </div>
   </h1>
 
- 
-  <div class="help" onclick="$('html, body').animate({ scrollTop: '600px' }, 2000); $(this).delay(3000).fadeOut('slow');">
-    <i class="fas fa-angle-down fa-2x"></i>
-  </div>
- 
- 
-  <div class="about">
-    <h2>My name is <b>Aviv Saban</b>, welcome to my project.</h2>
-    <p>This project will explore... </p>
-      <h2>Covid-19</h2>
-      <h2>The first chart tracks Covid-19 cases by UK region.</h2>
-      <div class="chart" id="Chart1"></div>
-   
-      <h2>Productivity puzzle</h2>
-      <h2>My second chart looks at productivity in the UK</h2>
-      <div class="chart" id="Chart2"> </div>
-    </body>
- 
-    
-<script>
-var myChart1 = "chart1_covidUKRegions.json";
-var myChart2 = "chart2_ukProductivity.json";
-   
-vegaEmbed('#Chart1', myChart1);
-vegaEmbed('#Chart2', myChart2);
-</script>
-   
 </body>
   </body>
- 
- 
+  
+
 </html>
- 
+
